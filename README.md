@@ -117,6 +117,7 @@ Skills are not MCP servers and not tools. MCP defines how an agent connects to e
 
 ### Development & Code Tools
 
+- [agent-skill-catalog](https://github.com/mianbaofang/agent-skill-catalog/tree/main/skills/agent-skill-catalog) - Scans installed Agent Skills into a searchable local HTML catalog: categories, plugin and family grouping, GitHub previews, invocation instructions, and a static offline demo; includes a localhost server for refresh, curation, and cover management.
 - [artifacts-builder](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder) - Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui).
 - [aws-skills](https://github.com/zxkane/aws-skills) - AWS development with CDK best practices, cost optimization MCP servers, and serverless/event-driven architecture patterns.
 - [building-blog](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill) - Adds an SEO-first, i18n-ready blog to a Next.js + Sanity site via a 40-question intake, a one-page plan, and a 20-section spec. Includes a generator for AI hero images via Gemini 3 Pro Image (Nano Banana Pro). *By [@BuildShipGrowRepeat](https://github.com/BuildShipGrowRepeat)*
@@ -192,6 +193,7 @@ Skills are not MCP servers and not tools. MCP defines how an agent connects to e
 
 ### Productivity & Organization
 
+- [decision-journal](https://github.com/mianbaofang/decision-journal/tree/master/skills/decision-journal) - Local-first decision assistant that remembers: turns a choice into evidence, risks, and a smallest next step, then saves every decision to a reviewable local journal with stats, regret tracking, and Markdown/JSON export. Ships as a Claude Code Skill, CLI, and FastAPI web UI; six interface languages.
 - [File Organizer](./file-organizer/) - Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures.
 - [Invoice Organizer](./invoice-organizer/) - Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently.
 - [kaizen](https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen/skills/kaizen) - Applies continuous improvement methodology with multiple analytical approaches, based on Japanese Kaizen philosophy and Lean methodology.
